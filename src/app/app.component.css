@@ -1,0 +1,21 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+nav{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Quicksand', sans-serif; */
+
+}
+.nav-item :hover{
+    color: white !important;
+}
+.container{
+    /* font-family: 'Roboto', sans-serif; */
+    
+    font-family: 'Open Sans', sans-serif;    
+    /* font-family: 'Quicksand', sans-serif; */
+}
+
+.routerPadding{
+    padding-top:60px;
+}
