@@ -4,6 +4,7 @@ nav{
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Pacifico', cursive; */
     /* font-family: 'Quicksand', sans-serif; */
+    background-color: transparent;
 
 }
 .nav-item :hover{
