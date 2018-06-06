@@ -1,13 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-/* footer{
-    height: 100%
-} */
+
+
 body{
     background-image: url("./assets/serverBackGround.jpg");
     background-size: auto;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100%;
+    /* width: auto; */
 }
 
 h1{
