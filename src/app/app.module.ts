@@ -8,6 +8,9 @@ import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { ExamplepageComponent } from './examplepage/examplepage.component';
+import { EcommerceComponent } from './ecommerce/ecommerce.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AppRoutingModule } from './/app-routing.module';
     SkillsComponent,
     EducationComponent,
     ContactComponent,
-    AboutmeComponent
+    AboutmeComponent,
+    ExamplepageComponent,
+    EcommerceComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,7 @@ nav{
     background-color: transparent;
 
 }
-.nav-item :hover{
+.itmHover :hover{
     color: white !important;
 }
 .container{
@@ -18,5 +18,12 @@ nav{
 }
 
 .routerPadding{
-    padding-top:70px;
+    padding-top:30px;
 }
+.dropdown-menu{
+    z-index: 4;
+    position: relative;
+}
+
+
+
