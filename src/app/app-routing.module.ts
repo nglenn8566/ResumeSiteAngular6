@@ -14,8 +14,7 @@ const routes: Routes = [
   {path:'contact', component: ContactComponent},
   {path:'education', component: EducationComponent},
   {path: '', redirectTo: 'about', pathMatch:'prefix'},
-  {path:'**', redirectTo:'about', pathMatch:'prefix'},
-  {path:'*/*', redirectTo:'about', pathMatch:'prefix'}
+  {path:'**', redirectTo:'about', pathMatch:'prefix'}
 
 ]
 
