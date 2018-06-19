@@ -1,0 +1,10 @@
+.card-header{
+    cursor: pointer;
+}
+.accordion{
+    border: none;
+}
+
+#headingOne{
+    background-color: #007bff;
+}
