@@ -6,6 +6,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { WorkComponent } from './work/work.component';
 import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 const routes: Routes = [
   {path:'about', component: AboutmeComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:'work', component: WorkComponent},
   {path:'contact', component: ContactComponent},
   {path:'education', component: EducationComponent},
+  {path:'privacy-policy', component: PrivacyComponent},
   {path: '', redirectTo: 'about', pathMatch:'prefix'},
   {path:'**', redirectTo:'about', pathMatch:'prefix'}
 
