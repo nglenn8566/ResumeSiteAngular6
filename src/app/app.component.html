@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-dark   animated fadeInDown ">
+<nav class="navbar navbar-expand-sm navbar-dark animated fadeInDown ">
     <a class="navbar-brand" href="">Nicholas Glenn</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
       aria-label="Toggle navigation">
@@ -7,39 +7,39 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item" routerLinkActive="active">
+        <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target="#navbarNav">
           <a class="nav-link" routerLink="/about">Home</a>
         </li>
-        <li class="nav-item" routerLinkActive="active">
+        <li class="nav-item" routerLinkActive="active"  data-toggle="collapse" data-target="#navbarNav">
           <a class="nav-link" routerLink="/education">
             <i class="fa fa-graduation-cap"></i> Education</a>
         </li>
-        <li class="nav-item" routerLinkActive="active">
+        <li class="nav-item" routerLinkActive="active"  data-toggle="collapse" data-target="#navbarNav">
           <a class="nav-link" routerLink="/work">
             <i class="fa fa-briefcase"></i> Work Experience</a>
         </li>
-        <li class="nav-item" routerLinkActive="active">
+        <li class="nav-item" routerLinkActive="active"  data-toggle="collapse" data-target="#navbarNav">
           <a class="nav-link" routerLink="/skills">
             <i class="fa fa-pencil"></i> Skills</a>
         </li>
-        <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" routerLink="/privacy-policy">
-              <i class="fa fa-user-secret"></i>Privacy Policy</a>
+        <li class="nav-item" routerLinkActive="active"  data-toggle="collapse" data-target="#navbarNav">
+            <a class="nav-link" routerLink="/cookie-policy">
+              <i class="fas fa-cookie-bite"></i> Cookie Policy</a>
           </li>
 
       </ul>
       <ul class="navbar-nav">
-        <li style="padding-right:15px;">
+        <li style="padding-right:15px;"  data-toggle="collapse" data-target="#navbarNav">
               <a class="nav-link" href="https://www.linkedin.com/in/nicholas-glenn-98b289106" target="_blank" >
                 <i class="fa fa-linkedin fa-2x lnpad white-text" aria-hidden="true"></i>
               </a>
         </li>
-        <li style="padding-right:15px;">
+        <li style="padding-right:15px;"  data-toggle="collapse" data-target="#navbarNav">
           <a class="nav-link" href="mailto:glennn@mail.gvsu.edu" target="">
             <i class="fa fa-envelope fa-2x lnpad white-text" aria-hidden="true"></i>
           </a>
         </li>
-          <li style="padding-right:0px;">
+          <li style="padding-right:0px;"  data-toggle="collapse" data-target="#navbarNav">
           <a class="nav-link" href="https://github.com/nglenn8566" target="_blank">
             <i class="fa fa-github fa-2x lnpad white-text" aria-hidden="true"></i>
           </a>
@@ -62,7 +62,7 @@
 <div class="container fixed-bottom" *ngIf="!cookieExists">
   <div class="row stylish-color lighten-1 pt-2 pb-2 cookieRow d-flex">
     <div class="col-md-9 text-white justify-content-center align-self-center">
-      This site uses cookies to provide the provide the best services and functions. By continuing to use this site you agree to the privacy policy. <a routerLink="/privacy-policy">Read More</a>
+      This site uses cookies to provide the provide the best services and functions. By continuing to use this site you agree to the privacy policy. <a routerLink="/cookie-policy">Read More</a>
     </div>
     <div class="col-md-3 justify-content-center align-self-center text-center">
       <button class="btn btn-success" (click)="cookie()">Ok</button> 
