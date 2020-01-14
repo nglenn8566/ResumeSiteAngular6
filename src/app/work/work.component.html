@@ -4,7 +4,52 @@
 <div class="col animated fadeIn">
 <div class="accordion" id="accordion"  style="background-color: black !important;">
     <div class="card" style="border-top: none !important;" >
-      <div class="card-header white-text special-color-dark text-center waves-effect"  type="button"  id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+      <div class="card-header white-text special-color-dark text-center waves-effect"  type="button"  id="headingGM" data-toggle="collapse" data-target="#collapseGM" aria-expanded="true" aria-controls="collapseOne" >
+        <h2 class="mb-0">
+            General Motors
+            <br>
+        </h2>
+        <h4 class="mb-0">
+            Software Developer
+            <br>
+        </h4>
+          <p class="mb-0">
+            June 2019 - Current
+          </p>
+        
+      </div>
+  
+      <div id="collapseGM" class="collapse show" aria-labelledby="headingGM" data-parent="#accordion">
+        <div class="card-body black-text ">
+           <ul>
+            <li>
+                <p>Design, creation, implementation, and management of Engineering Lifecycle Management Tools.</p>
+            </li>
+            <li>
+              <p>Creation and implementation of Eclipse RCP applications.</p>
+            </li>
+            <li>
+                <p>Management of Linux servers.</p>
+            </li>
+            <li>
+                <p>Utilized cluster management software.</p>
+            </li>
+            <li>
+                <p>Setup and managed user home drives. </p>
+            </li>
+            <li>
+                <p>Created scripts to make changes on multiple servers simultaneously.</p>
+            </li>
+
+
+            </ul>
+            <button class="btn btn-success btn-lg form-control vertical-align-center" data-toggle="modal" data-target="#gmModal">About Company </button>                                 
+        </div>
+      </div>
+      
+    </div>
+    <div class="card" style="border-top: none !important;" >
+      <div class="card-header white-text special-color-dark text-center waves-effect"  type="button"  id="headingOne" data-toggle="collapse" data-target="#collapseOne"aria-controls="collapseOne" >
         <h2 class="mb-0">
             SAF-Holland
             <br>
@@ -19,7 +64,7 @@
         
       </div>
   
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="card-body black-text ">
            <ul>
             <li>
@@ -159,7 +204,7 @@
       
     </div>
 
-    <div class="card">
+    <!-- <div class="card">
       <div class="card-header white-text special-color-dark text-center" id="headingFour" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
         <h2 class="mb-0">
             Tim Hortons
@@ -191,11 +236,33 @@
         </div>
       </div>
      
-    </div>
+    </div> -->
   </div>
 </div>
 </div>
 
+</div>
+
+<div class="modal fade" id="gmModal" tabindex="-1" role="dialog" aria-labelledby="gmModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h3 class="modal-title black-text text-center" id="gmModalLabel">General Motors</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.026415037035!2d-83.03342338424834!3d42.51224663346911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824da8ad1f44d3b%3A0x840d3f4b3150a0b!2sGM%20Tech%20Center!5e0!3m2!1sen!2sus!4v1579044327229!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary form-control" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
 </div>
 
 <div class="modal fade" id="safModal" tabindex="-1" role="dialog" aria-labelledby="safModalLabel" aria-hidden="true">
@@ -210,8 +277,9 @@
             <div class="modal-body">
               <div class="container">
                 <div class="row">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.647944596398!2d-86.20479268408397!3d43.216872979138834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88197c4538599f43%3A0x440230b311a629e1!2sSAF-HOLLAND%2C+Inc.!5e0!3m2!1sen!2sus!4v1529685913636" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>                </div>
-              </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.647944596398!2d-86.20479268408397!3d43.216872979138834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88197c4538599f43%3A0x440230b311a629e1!2sSAF-HOLLAND%2C+Inc.!5e0!3m2!1sen!2sus!4v1529685913636" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>                
+                  </div>              
+                </div>
 
               </div>
             <div class="modal-footer">
@@ -264,7 +332,7 @@
         </div>
     </div>
 </div>
-<div class="modal fade" id="thModal" tabindex="-1" role="dialog" aria-labelledby="thModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="thModal" tabindex="-1" role="dialog" aria-labelledby="thModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -285,7 +353,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <script>
